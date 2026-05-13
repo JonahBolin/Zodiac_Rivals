@@ -1,0 +1,13 @@
+#welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    margin: 0 400px 0;
+    align-items: center;
+}
+
+h1 {
+    width: 500px;
+    text-align: center;
+}
