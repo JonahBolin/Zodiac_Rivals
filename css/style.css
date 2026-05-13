@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "MRetro";
+    src: url(../assets/fonts/Magic\ Retro.ttf);
+}
+
+@font-face {
+    font-family: "PPsycho";
+    src: url(../assets/fonts/PSYCHO\ PERSONAL\ USE-SVG.otf);
+}
+
+@font-face {
+    font-family: "ISerif";
+    src: url(../assets/fonts/InstrumentSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Glory";
+    src: url(../assets/fonts/Glory-VariableFont_wght.ttf);
+}
+
+/* VARIABLES */
+:root {
+    --heading1-font: "MRetro", sans-serif;
+    --heading2-font: "PPsycho", sans-serif;
+    --body-font: "Glory", sans-serif;
+    --logo-font: "ISerif", sans-serif;
+}
+
+
+
+h1 {
+    font-family: var(--heading1-font);
+}
+
+h2 {
+    font-family: var(--heading2-font);
+}
+
+p {
+    font-family: var(--body-font);
+}
