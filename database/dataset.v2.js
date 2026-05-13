@@ -19,16 +19,16 @@ const skills = [{
 
 const locations = [{
   "id": 1,
-  "name": "L01"
+  "name": "Pyraxis"
 }, {
   "id": 2,
-  "name": "L02"
+  "name": "Zephyria"
 }, {
   "id": 3,
-  "name": "L03"
+  "name": "Terranova"
 }, {
   "id": 4,
-  "name": "L04"
+  "name": "Aquorim"
 }, {
   "id": 5,
   "name": "L05"
@@ -36,7 +36,7 @@ const locations = [{
 
 const disciplines = [{
   "id": 1,
-  "name": "D01",
+  "name": "Element Run",
   "skillFactors": {
     "S01": 13,
     "S02": 12,
@@ -46,7 +46,7 @@ const disciplines = [{
   }
 }, {
   "id": 4,
-  "name": "D04",
+  "name": "Laser Labyrinth",
   "skillFactors": {
     "S01": 21,
     "S02": 12,
@@ -56,7 +56,7 @@ const disciplines = [{
   }
 }, {
   "id": 2,
-  "name": "D02",
+  "name": "Star Hunt",
   "skillFactors": {
     "S01": 18,
     "S02": 13,
@@ -89,179 +89,223 @@ const disciplines = [{
 const participants = [{
   "id": 148,
   "name": "Kael",
-  "sign": "Aries"
+  "sign": "Aries",
+  "profilePic": ""
 }, {
   "id": 65,
   "name": "Riven",
-  "sign": "Aries"
+  "sign": "Aries",
+  "profilePic": ""
 }, {
   "id": 189,
   "name": "Pyra",
-  "sign": "Aries"
+  "sign": "Aries",
+  "profilePic": ""
 }, {
   "id": 268,
   "name": "Lyra",
-  "sign": "Taurus"
+  "sign": "Taurus",
+  "profilePic": ""
 }, {
   "id": 180,
   "name": "Bram",
-  "sign": "Taurus"
+  "sign": "Taurus",
+  "profilePic": ""
 }, {
   "id": 296,
   "name": "Thorne",
-  "sign": "Taurus"
+  "sign": "Taurus",
+  "profilePic": ""
 }, {
   "id": 141,
   "name": "Elara",
-  "sign": "Taurus"
+  "sign": "Taurus",
+  "profilePic": ""
 }, {
   "id": 179,
   "name": "Nova",
-  "sign": "Gemini"
+  "sign": "Gemini",
+  "profilePic": ""
 }, {
   "id": 76,
   "name": "Echo",
-  "sign": "Gemini"
+  "sign": "Gemini",
+  "profilePic": ""
 }, {
   "id": 173,
   "name": "Jinx",
-  "sign": "Gemini"
+  "sign": "Gemini",
+  "profilePic": ""
 }, {
   "id": 214,
   "name": "Mira",
-  "sign": "Gemini"
+  "sign": "Gemini",
+  "profilePic": ""
 }, {
   "id": 169,
   "name": "Selene",
-  "sign": "Cancer"
+  "sign": "Cancer",
+  "profilePic": ""
 }, {
   "id": 269,
   "name": "Nerith",
-  "sign": "Cancer"
+  "sign": "Cancer",
+  "profilePic": ""
 }, {
   "id": 122,
   "name": "Maris",
-  "sign": "Cancer"
+  "sign": "Cancer",
+  "profilePic": ""
 }, {
   "id": 58,
   "name": "Ceto",
-  "sign": "Cancer"
+  "sign": "Cancer",
+  "profilePic": ""
 }, {
   "id": 270,
   "name": "Orion",
-  "sign": "Leo"
+  "sign": "Leo",
+  "profilePic": ""
 }, {
   "id": 206,
   "name": "Caelum",
-  "sign": "Leo"
+  "sign": "Leo",
+  "profilePic": ""
 }, {
   "id": 150,
   "name": "Helios",
-  "sign": "Leo"
+  "sign": "Leo",
+  "profilePic": ""
 }, {
   "id": 190,
   "name": "Zarek",
-  "sign": "Leo"
+  "sign": "Leo",
+  "profilePic": ""
 }, {
   "id": 68,
   "name": "Astra",
-  "sign": "Virgo"
+  "sign": "Virgo",
+  "profilePic": ""
 }, {
   "id": 82,
   "name": "Vira",
-  "sign": "Virgo"
+  "sign": "Virgo",
+  "profilePic": ""
 }, {
   "id": 156,
   "name": "Sable",
-  "sign": "Virgo"
+  "sign": "Virgo",
+  "profilePic": ""
 }, {
   "id": 159,
   "name": "Liora",
-  "sign": "Virgo"
+  "sign": "Virgo",
+  "profilePic": ""
 }, {
   "id": 201,
   "name": "Vex",
-  "sign": "Libra"
+  "sign": "Libra",
+  "profilePic": ""
 }, {
   "id": 124,
   "name": "Aeris",
-  "sign": "Libra"
+  "sign": "Libra",
+  "profilePic": ""
 }, {
   "id": 149,
   "name": "Vale",
-  "sign": "Libra"
+  "sign": "Libra",
+  "profilePic": ""
 }, {
   "id": 235,
   "name": "Cira",
-  "sign": "Scorpio"
+  "sign": "Scorpio",
+  "profilePic": ""
 }, {
   "id": 170,
   "name": "Nyx",
-  "sign": "Scorpio"
+  "sign": "Scorpio",
+  "profilePic": ""
 }, {
   "id": 11,
   "name": "Kairo",
-  "sign": "Scorpio"
+  "sign": "Scorpio",
+  "profilePic": ""
 }, {
   "id": 19,
   "name": "Zyra",
-  "sign": "Scorpio"
+  "sign": "Scorpio",
+  "profilePic": ""
 }, {
   "id": 290,
   "name": "Sol",
-  "sign": "Sagittarius"
+  "sign": "Sagittarius",
+  "profilePic": ""
 }, {
   "id": 181,
   "name": "Altair",
-  "sign": "Sagittarius"
+  "sign": "Sagittarius",
+  "profilePic": ""
 }, {
   "id": 12,
   "name": "Rhea",
-  "sign": "Sagittarius"
+  "sign": "Sagittarius",
+  "profilePic": ""
 }, {
   "id": 195,
   "name": "Orin",
-  "sign": "Sagittarius"
+  "sign": "Sagittarius",
+  "profilePic": ""
 }, {
   "id": 182,
   "name": "Rune",
-  "sign": "Capricorn"
+  "sign": "Capricorn",
+  "profilePic": ""
 }, {
   "id": 6,
   "name": "Kaida",
-  "sign": "Capricorn"
+  "sign": "Capricorn",
+  "profilePic": ""
 }, {
   "id": 239,
   "name": "Tarek",
-  "sign": "Capricorn"
+  "sign": "Capricorn",
+  "profilePic": ""
 }, {
   "id": 125,
   "name": "Zephyr",
-  "sign": "Aquarius"
+  "sign": "Aquarius",
+  "profilePic": ""
 }, {
   "id": 140,
   "name": "Aero",
-  "sign": "Aquarius"
+  "sign": "Aquarius",
+  "profilePic": ""
 }, {
   "id": 81,
   "name": "Cyra",
-  "sign": "Aquarius"
+  "sign": "Aquarius",
+  "profilePic": ""
 }, {
   "id": 160,
   "name": "Lynx",
-  "sign": "Aquarius"
+  "sign": "Aquarius",
+  "profilePic": ""
 }, {
   "id": 192,
   "name": "Luna",
-  "sign": "Pisces"
+  "sign": "Pisces",
+  "profilePic": ""
 }, {
   "id": 274,
   "name": "Eira",
-  "sign": "Pisces"
+  "sign": "Pisces",
+  "profilePic": ""
 }, {
   "id": 119,
   "name": "Thalor",
-  "sign": "Pisces"
+  "sign": "Pisces",
+  "profilePic": ""
 }]
 
 const coaches = [{
@@ -349,7 +393,7 @@ const trainers = [{
 }]
 
 const seasons = [{
-  "year": 0,
+  "year": 6000,
   "coaches": [{
     "participantId": 141,
     "coachId": 11
@@ -15094,7 +15138,7 @@ const seasons = [{
     }]
   }]
 }, {
-  "year": 1,
+  "year": 6010,
   "coaches": [{
     "participantId": 170,
     "coachId": 6
@@ -29839,7 +29883,7 @@ const seasons = [{
     }]
   }]
 }, {
-  "year": 2,
+  "year": 6020,
   "coaches": [{
     "participantId": 170,
     "coachId": 6
