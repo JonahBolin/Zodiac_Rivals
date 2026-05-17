@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aquorim | Zodiac Rivals</title>
+
+    <link rel="stylesheet" href="../css/planetOverview.css">
+</head>
+
+<body id="planetPage">
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar">
+        <!-- LEFT -->
+        <div id="navbarLogo">
+
+            <img 
+                id="logoImage"
+                src="../assets/planetsImg/zodiaraPlanet.png" 
+                alt="Zodiac Rivals Logo"
+            >
+
+            <p id="logoText">ZODIAC RIVALS</p>
+
+        </div>
+
+        <!-- CENTER -->
+        <div id="navbarPlanets">
+
+            <a href="./pyraxis.html" class="planetLink">
+                <img 
+                    class="planetIcon"
+                    src="../assets/planetsImg/firePlanet.png" 
+                    alt="Pyraxis Planet"
+                >
+            </a>
+
+            <a href="./aquorim.html" class="planetLink">
+                <img 
+                    class="planetIcon"
+                    src="../assets/planetsImg/waterPlanet.png" 
+                    alt="Aquorim Planet"
+                >
+            </a>
+
+            <a href="./zephyria.html" class="planetLink">
+                <img 
+                    class="planetIcon"
+                    src="../assets/planetsImg/airPlanet.png" 
+                    alt="Zephyria Planet"
+                >
+            </a>
+
+            <a href="./terranova.html" class="planetLink">
+                <img 
+                    class="planetIcon"
+                    src="../assets/planetsImg/earthPlanet.png" 
+                    alt="Terranova Planet"
+                >
+            </a>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div id="navbarRight">
+
+            <div id="zodiacNavigation">
+                <!-- JS inserts zodiac buttons/icons -->
+            </div>
+
+            <div id="userSelection">
+
+                <img 
+                    id="userZodiacIcon"
+                    src="../assets/zodiacIcons/cancer.png" 
+                    alt="Selected Zodiac"
+                >
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- SECTION 1 -->
+    <!-- PLANET INTRO -->
+
+    <section id="planetIntroSection">
+
+        <div class="sectionLeft">
+
+            <img 
+                id="planetMainImage"
+                src="../assets/planetsImg/waterPlanet.png"
+                alt="Aquorim Planet"
+            >
+
+        </div>
+
+        <div class="sectionRight">
+
+            <h1 id="planetTitle">
+                Aquorim — The Water Planet
+            </h1>
+
+            <div id="planetDescription">
+
+                <p>
+                    Aquariom is a planet covered in endless oceans, floating arenas, underwater tunnels, and massive storms. Deep blue waters, neon reefs, glowing sea creatures, and floating cities shape the planet’s landscape. It rains 364 out of 365 days a year, making storms a natural part of life.
+                </p>
+
+                <p>
+                    Home to the water signs —  is known for its unpredictable tides and dangerous tournament environments. Competitors must survive giant waves, flooded arenas, and shifting underwater paths while competing for victory.
+                </p>
+
+                <p>
+                    Despite its harsh conditions, Aquariom is considered one of the galaxy’s most mesmerizing planets, glowing with electric blue storms and bioluminescent oceans at night.                
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECTION 2 -->
+    <!-- ZODIAC CARDS -->
+
+    <section id="zodiacSection">
+
+        <div class="sectionLeft">
+
+            <h2 id="zodiacSectionTitle">
+                ZODIAC SIGNS
+            </h2>
+
+            <img 
+                id="zodiacDecoration"
+                src="../assets/effects/waterGlow.png" 
+                alt="Decoration"
+            >
+
+        </div>
+
+        <div class="sectionRight">
+
+            <p id="zodiacSectionDescription">
+
+                Explore the zodiac signs connected to Aquorim and discover their strengths, personalities, and tournament histories.
+
+            </p>
+
+            <!-- CARD SLIDER -->
+            <div id="zodiacSliderContainer">
+
+                <button class="sliderButton" id="previousCardButton">
+                    ←
+                </button>
+
+                <div id="zodiacCardsContainer">
+
+                    <!-- JS inserts zodiac cards -->
+
+                </div>
+
+                <button class="sliderButton" id="nextCardButton">
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 3 -->
+    <!-- D3 GRAPH -->
+
+    <section id="leaderboardSection">
+
+        <div id="leaderboardHeader">
+
+            <h2 id="leaderboardTitle">
+                PLANETARY LEADERBOARD
+            </h2>
+
+            <p id="leaderboardDescription">
+
+                The planetary leaderboard visualizes how each participant ranks based on tournament performance. Participants placed closer to the planet core are leading the rankings, while participants further away have lower scores.
+
+                Use the season and game filters to explore performances across specific seasons or disciplines.
+
+            </p>
+
+        </div>
+
+        <div id="leaderboardContent">
+
+            <!-- LEFT -->
+            <div id="graphContainer">
+
+                <svg id="leaderboardGraph"></svg>
+
+            </div>
+
+            <!-- RIGHT -->
+            <aside id="filtersPanel">
+
+                <!-- SEASON FILTER -->
+                <div class="filterGroup">
+
+                    <h3 class="filterTitle">
+                        SEASONS
+                    </h3>
+
+                    <div id="seasonFilters">
+
+                        <button class="filterButton activeFilter">
+                            All
+                        </button>
+
+                        <button class="filterButton">
+                            Season 1
+                        </button>
+
+                        <button class="filterButton">
+                            Season 2
+                        </button>
+
+                        <button class="filterButton">
+                            Season 3
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- GAME FILTER -->
+                <div class="filterGroup">
+
+                    <h3 class="filterTitle">
+                        GAMES
+                    </h3>
+
+                    <div id="gameFilters">
+
+                        <button class="filterButton activeFilter">
+                            All
+                        </button>
+
+                        <button class="filterButton">
+                            Element Run
+                        </button>
+
+                        <button class="filterButton">
+                            Star Hunt
+                        </button>
+
+                        <button class="filterButton">
+                            Laser Labyrinth
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SECTION 4 -->
+    <!-- GAMES -->
+
+    <section id="gamesSection">
+
+        <h2 id="gamesSectionTitle">
+            TOURNAMENT DISCIPLINES
+        </h2>
+
+        <div id="gamesCardsContainer">
+
+            <!-- JS inserts game cards -->
+
+        </div>
+
+    </section>
+
+
+    <script type="module" src="../js/planetOverview.js"></script>
+
+</body>
+</html>
