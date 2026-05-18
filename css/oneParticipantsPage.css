@@ -1,0 +1,12 @@
+body {
+    background-image: url("../assets/backgroundImg/ZodiacSidaBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#divForBackgroundImage {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: static;
+    z-index: 10;
+    height: 100%;
+}

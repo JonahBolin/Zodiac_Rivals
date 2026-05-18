@@ -44292,7 +44292,7 @@ const seasons = [{
     }]
   }]
 }, {
-  "year": 3,
+  "year": 6030,
   "coaches": [{
     "participantId": 170,
     "coachId": 6
