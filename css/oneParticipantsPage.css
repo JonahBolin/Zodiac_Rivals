@@ -12,3 +12,21 @@ body {
     margin: 0;
 
 }
+
+#section1 {
+    display: flex;
+}
+
+#thisParticipantTitel {
+    margin: 0;
+}
+
+.participantSignDesc {
+    display: flex;
+}
+
+.sectionRight {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

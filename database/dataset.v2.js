@@ -23,7 +23,7 @@ const signInfo = {
     quality: "Cardinal",
     day: "Monday",
     greatestCompatibility: ["Taurus", "Pisces"],
-    luckyNumbers =[2, 3, 15, 20],
+    luckyNumbers: [2, 3, 15, 20],
     rulers: ["Moon"],
 
     dates: {
@@ -142,7 +142,7 @@ const signInfo = {
     day: "Saturday",
     greatestCompatibility: ["Gemini", "Libra"],
     luckyNumbers: [4, 7, 11, 22],
-    rulers: ["Uranus", Saturn],
+    rulers: ["Uranus", "Saturn"],
 
     dates: {
       startMonth: 1,
