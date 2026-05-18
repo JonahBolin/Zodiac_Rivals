@@ -1,4 +1,210 @@
 // Dataset
+const signInfo = {
+  pisces: {
+    sign: "Pisces",
+    element: "Water",
+    color: ["Mauve", "Lilac", "Purple", "Violet", "Sea green"],
+    quality: "Mutable",
+    day: "Thursday",
+    greatestCompatibility: ["Virgo, Taurus"],
+    luckyNumbers: [3, 9, 12, 15, 18, 24],
+    ruler: ["Neptune, Jupiter"],
+    dates: {
+      startMonth: 2,
+      startDay: 19,
+      endMonth: 3,
+      endDay: 20
+    }
+  },
+  cancer: {
+    sign: "Cancer",
+    element: "Water",
+    colors: ["White", "Silver", "Sea green"],
+    quality: "Cardinal",
+    day: "Monday",
+    greatestCompatibility: ["Taurus", "Pisces"],
+    luckyNumbers =[2, 3, 15, 20],
+    rulers: ["Moon"],
+
+    dates: {
+      startMonth: 6,
+      startDay: 21,
+      endMonth: 7,
+      endDay: 22
+    }
+  },
+  scorpio: {
+    sign: "Scorpio",
+    element: "Water",
+    colors: ["Black", "Red", "Marcon"],
+    quality: "Fixed",
+    day: "Tuesday",
+    greatestCompatibility: ["Cancer", "Pisces"],
+    luckyNumbers: [8, 11, 18, 22],
+    rulers: ["Pluto", "Mars"],
+
+    dates: {
+      startMonth: 10,
+      startDay: 23,
+      endMonth: 11,
+      endDay: 21
+    }
+  },
+  aries: {
+    sign: "Aries",
+    element: "Fire",
+    colors: ["Red", "Scarlet"],
+    quality: "Cardinal",
+    day: "Tuesday",
+    greatestCompatibility: ["Leo", "Sagittarius"],
+    luckyNumbers: [1, 8, 17],
+    rulers: ["Mars"],
+
+    dates: {
+      startMonth: 3,
+      startDay: 21,
+      endMonth: 4,
+      endDay: 19
+    }
+  },
+  leo: {
+    sign: "Leo",
+    element: "Fire",
+    colors: ["Gold", "Orange", "Yellow"],
+    quality: "Fixed",
+    day: "Sunday",
+    greatestCompatibility: ["Aries", "Sagittarius"],
+    luckyNumbers: [1, 4, 10, 13],
+    rulers: ["Sun"],
+
+    dates: {
+      startMonth: 7,
+      startDay: 23,
+      endmonth: 8,
+      endDay: 22
+    }
+  },
+  sagittarius: {
+    sign: "Sagittarius",
+    element: "Fire",
+    colors: ["Purple", "Blue"],
+    quality: "Mutable",
+    day: "Thursday",
+    greatestCompatibility: ["Aries", "Leo"],
+    luckyNumbers: [3, 7, 9, 12],
+    rulers: ["Jupiter"],
+
+    dates: {
+      startMonth: 11,
+      startDay: 22,
+      endMonth: 12,
+      endDay: 21
+    }
+  },
+  gemini: {
+    sign: "Gemini",
+    element: "Air",
+    colors: ["Yellow", "Light green"],
+    quality: "Mutable",
+    day: "Wednesday",
+    greatestCompatibility: ["Libra", "Aquarius"],
+    rulers: ["Mercury"],
+
+    dates: {
+      startMonth: 5,
+      startDay: 21,
+      endMonth: 6,
+      endDay: 20
+    }
+  },
+  libra: {
+    sign: "Libra",
+    element: "Air",
+    colors: ["Pink", "Blue", "Green"],
+    quality: "Cardinal",
+    day: "Friday",
+    greatestCompatibility: ["Gemini", "Aquarius"],
+    luckyNumbers: [4, 6, 13, 15],
+    rulers: ["Venus"],
+
+    dates: {
+      startMonth: 9,
+      startDay: 23,
+      endMonth: 10,
+      endDay: 22
+    }
+  },
+  aquarius: {
+    sign: "Aquarius",
+    element: "Air",
+    colors: ["Blue", "Turqouise"],
+    quality: "Fixed",
+    day: "Saturday",
+    greatestCompatibility: ["Gemini", "Libra"],
+    luckyNumbers: [4, 7, 11, 22],
+    rulers: ["Uranus", Saturn],
+
+    dates: {
+      startMonth: 1,
+      startDay: 20,
+      endMonth: 2,
+      endDay: 18
+    }
+  },
+  taurus: {
+    sign: "Taurus",
+    element: "Earth",
+    colors: ["Green", "Pink"],
+    quality: "Fixed",
+    day: "Friday",
+    greatestCompatibility: ["Virgo", "Capricorn"],
+    luckyNumbers: [2, 6, 9, 12, 24],
+    rulers: ["Venus"],
+
+    dates: {
+      startMonth: 4,
+      startDay: 20,
+      endMonth: 5,
+      endDay: 20
+    }
+  },
+  virgo: {
+    sign: "Virgo",
+    element: "Earth",
+    colors: ["Beige", "Green", "Brown"],
+    quality: "Mutable",
+    day: "Wednesday",
+    greatestCompatibility: ["Taurus", "Capricorn"],
+    luckyNumbers: [5, 14, 15, 23, 32],
+    rulers: ["Mercury"],
+
+    dates: {
+      startMonth: 8,
+      startDay: 23,
+      endMonth: 9,
+      endDay: 22
+    }
+  },
+  capricorn: {
+    sign: "Capricorn",
+    element: "Earth",
+    colors: ["Brown", "Black"],
+    quality: "Cardinal",
+    day: "Saturday",
+    greatestCompatibility: ["Taurus", "Virgo"],
+    luckyNumbers: [4, 8, 13, 22],
+    rulers: ["Saturn"],
+
+    dates: {
+      startMonth: 12,
+      startDay: 22,
+      endMonth: 1,
+      endDay: 19
+    }
+  }
+
+}
+
 
 const skills = [{
   "id": 1,

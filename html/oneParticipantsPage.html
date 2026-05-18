@@ -9,7 +9,36 @@
 </head>
 
 <body>
-    <div id="divForBackgroundImage"></div>
+    <!-- NAVBAR -->
+    <nav></nav>
+    <!-- SECTION 1 -->
+    <!-- PARTICIPANT INTRO -->
+    <section>
+        <div class="sectionLeft">
+            <h1 class="participantTitel" id="thisParticipantTitel"></h1>
+            <div class="participantDescriptionContainer" id="thisParticipantDescriptionContainer">
+                <div class="participantSignDesc" id="thisParticipantSignDesc">
+                    <img class="signCard" id="thisParticipantSignCard" src="../assets/ZodiacCards/cancer.png">
+                    <section id="zodiacInfo">
+                        <p><strong>Sign:</strong><span id="sign"></span></p>
+                        <p><strong>Element:</strong><span id="element"></span></p>
+                        <p><strong>Color:</strong><span id="color"></span></p>
+                        <p><strong>Quality:</strong><span id="quality"></span></p>
+                        <p><strong>Day:</strong><span id="day"></span></p>
+                        <p><strong>Greatest Compatibility:</strong><span id="compatibility"></span></p>
+                        <p><strong>Lucky Numbers:</strong><span id="luckyNumbers"></span></p>
+                        <p><strong>Ruler:</strong><span id="ruler"></span></p>
+                        <p><strong>Dates:</strong><span id="dates"></span></p>
+                    </section>
+
+                </div>
+                <p class="participantText" id="thisParticipantText"></p>
+            </div>
+        </div>
+        <div class="sectionRight">
+            <img id="bigWaterPlanetImg" src="../assets/planetsImg/waterPlanet.png" alt="Big blue planet called Aquorim">
+        </div>
+    </section>
     <script src="../database/dataset.v2.js"></script>
     <script src="../javascript/oneParticipantsPage.js"></script>
 </body>
