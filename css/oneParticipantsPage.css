@@ -6,7 +6,7 @@ body {
 
 #divForBackgroundImage {
     background-color: rgba(255, 255, 255, 0.8);
-    position: static;
+    position: absolute;
     z-index: 10;
     height: 100%;
 }
