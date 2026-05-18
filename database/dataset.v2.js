@@ -90,222 +90,222 @@ const participants = [{
   "id": 148,
   "name": "Kael",
   "sign": "Aries",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aries.png"
 }, {
   "id": 65,
   "name": "Riven",
   "sign": "Aries",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aries.png"
 }, {
   "id": 189,
   "name": "Pyra",
   "sign": "Aries",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aries.png"
 }, {
   "id": 268,
   "name": "Lyra",
   "sign": "Taurus",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/taurus.png"
 }, {
   "id": 180,
   "name": "Bram",
   "sign": "Taurus",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/taurus.png"
 }, {
   "id": 296,
   "name": "Thorne",
   "sign": "Taurus",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/taurus.png"
 }, {
   "id": 141,
   "name": "Elara",
   "sign": "Taurus",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/taurus.png"
 }, {
   "id": 179,
   "name": "Nova",
   "sign": "Gemini",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/gemini.png"
 }, {
   "id": 76,
   "name": "Echo",
   "sign": "Gemini",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/gemini.png"
 }, {
   "id": 173,
   "name": "Jinx",
   "sign": "Gemini",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/gemini.png"
 }, {
   "id": 214,
   "name": "Mira",
   "sign": "Gemini",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/gemini.png"
 }, {
   "id": 169,
   "name": "Selene",
   "sign": "Cancer",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/cancer.png"
 }, {
   "id": 269,
   "name": "Nerith",
   "sign": "Cancer",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/cancer.png"
 }, {
   "id": 122,
   "name": "Maris",
   "sign": "Cancer",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/cancer.png"
 }, {
   "id": 58,
   "name": "Ceto",
   "sign": "Cancer",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/cancer.png"
 }, {
   "id": 270,
   "name": "Orion",
   "sign": "Leo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/leo.png"
 }, {
   "id": 206,
   "name": "Caelum",
   "sign": "Leo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/leo.png"
 }, {
   "id": 150,
   "name": "Helios",
   "sign": "Leo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/leo.png"
 }, {
   "id": 190,
   "name": "Zarek",
   "sign": "Leo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/leo.png"
 }, {
   "id": 68,
   "name": "Astra",
   "sign": "Virgo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/virgo.png"
 }, {
   "id": 82,
   "name": "Vira",
   "sign": "Virgo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/virgo.png"
 }, {
   "id": 156,
   "name": "Sable",
   "sign": "Virgo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/virgo.png"
 }, {
   "id": 159,
   "name": "Liora",
   "sign": "Virgo",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/virgo.png"
 }, {
   "id": 201,
   "name": "Vex",
   "sign": "Libra",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/libra.png"
 }, {
   "id": 124,
   "name": "Aeris",
   "sign": "Libra",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/libra.png"
 }, {
   "id": 149,
   "name": "Vale",
   "sign": "Libra",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/libra.png"
 }, {
   "id": 235,
   "name": "Cira",
   "sign": "Scorpio",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/scorpio.png"
 }, {
   "id": 170,
   "name": "Nyx",
   "sign": "Scorpio",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/scorpio.png"
 }, {
   "id": 11,
   "name": "Kairo",
   "sign": "Scorpio",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/scorpio.png"
 }, {
   "id": 19,
   "name": "Zyra",
   "sign": "Scorpio",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/scorpio.png"
 }, {
   "id": 290,
   "name": "Sol",
   "sign": "Sagittarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/sagittarius.png"
 }, {
   "id": 181,
   "name": "Altair",
   "sign": "Sagittarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/sagittarius.png"
 }, {
   "id": 12,
   "name": "Rhea",
   "sign": "Sagittarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/sagittarius.png"
 }, {
   "id": 195,
   "name": "Orin",
   "sign": "Sagittarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/sagittarius.png"
 }, {
   "id": 182,
   "name": "Rune",
   "sign": "Capricorn",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/capricorn.png"
 }, {
   "id": 6,
   "name": "Kaida",
   "sign": "Capricorn",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/capricorn.png"
 }, {
   "id": 239,
   "name": "Tarek",
   "sign": "Capricorn",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/capricorn.png"
 }, {
   "id": 125,
   "name": "Zephyr",
   "sign": "Aquarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aquarius.png"
 }, {
   "id": 140,
   "name": "Aero",
   "sign": "Aquarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aquarius.png"
 }, {
   "id": 81,
   "name": "Cyra",
   "sign": "Aquarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aquarius.png"
 }, {
   "id": 160,
   "name": "Lynx",
   "sign": "Aquarius",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/aquarius.png"
 }, {
   "id": 192,
   "name": "Luna",
   "sign": "Pisces",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/pisces.png"
 }, {
   "id": 274,
   "name": "Eira",
   "sign": "Pisces",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/pisces.png"
 }, {
   "id": 119,
   "name": "Thalor",
   "sign": "Pisces",
-  "profilePic": ""
+  "profilePic": "../assets/ZodiacCards/pisces.png"
 }]
 
 const coaches = [{
